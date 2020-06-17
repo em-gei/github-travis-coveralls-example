@@ -1,4 +1,4 @@
-package com.eample.ci;
+package com.examples.myproject;
 
 /**
  * Hello world!
@@ -10,8 +10,8 @@ public class App
     {
         System.out.println( "Hello World!" );
     }
-    
-    public String sayHello() {
-    	return "Hello";
-    }
+
+	public String sayHello() {
+		return "Hello";
+	}
 }
