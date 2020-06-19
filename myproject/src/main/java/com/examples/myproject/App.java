@@ -14,4 +14,8 @@ public class App
 	public String sayHello() {
 		return "Hello";
 	}
+	
+	public void doNothing() {
+        System.out.println( "Non fo nulla!" );
+	}
 }
