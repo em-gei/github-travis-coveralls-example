@@ -19,5 +19,5 @@ matrix:
 # skip installation step
 install: true
 
-script: "mvn -f myproject/pom.xml clean verify"
+script: "mvn -f myproject/pom.xml clean verify -Pjacoco"
 
