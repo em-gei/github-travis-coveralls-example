@@ -5,5 +5,4 @@ jdk: openjdk8
 # skip installation step
 install: true
 
-script:
-	-mvn -f myproject/pom.xml clean verify
+script: "mvn -f myproject/pom.xml clean verify"
