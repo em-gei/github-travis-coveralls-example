@@ -6,4 +6,4 @@ jdk: openjdk8
 install: true
 
 script:
-	-mvn -f com.examples.myproject/pom.xml clean verify
+	-mvn -f myproject/pom.xml clean verify
