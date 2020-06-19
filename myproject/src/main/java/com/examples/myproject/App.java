@@ -15,7 +15,4 @@ public class App
 		return "Hello";
 	}
 	
-	public void doNothing() {
-        System.out.println( "Non fo nulla!" );
-	}
 }
