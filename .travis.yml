@@ -8,6 +8,7 @@ matrix:
   include:
     # Always build this environment
     - jdk: openjdk8
+      env: ADDITIONAL_MAVEN_ARGS="-Pjacoco coveralls:report"
     # Only PR
     - jdk: openjdk9
       if: type IN (pull_request)
@@ -19,5 +20,5 @@ matrix:
 # skip installation step
 install: true
 
-script: "mvn -f myproject/pom.xml clean verify -Pjacoco coveralls:report"
+script: "mvn -f myproject/pom.xml clean verify $ADDITIONAL_MAVEN_ARGS"
 
